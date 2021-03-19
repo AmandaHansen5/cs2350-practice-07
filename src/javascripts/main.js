@@ -8,3 +8,13 @@ import 'bootstrap'
 // JavaScript
 
 //TODO
+
+document.write('<table class="table">')
+for(let i = 1; i <=12; i++) {
+    document.write("<tr>")
+    for(let j = 1; j <= 12; j++) {
+        document.write(`<td>${i * j}</td>`)
+    }
+    document.write("</tr>")
+}
+document.write("</table>")
